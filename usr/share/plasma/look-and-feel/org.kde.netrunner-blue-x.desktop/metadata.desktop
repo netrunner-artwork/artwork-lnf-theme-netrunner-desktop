@@ -1,0 +1,23 @@
+[Desktop Entry]
+Comment=Netrunner Blue X Desktop Design
+Comment[x-test]=xxNetrunner Blue X Desktop Designxx
+
+Encoding=UTF-8
+
+Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
+Keywords[x-test]=xxDesktopxx;xxWorkspacexx;xxAppearancexx;xxLook and Feelxx;xxLogoutxx;xxLockxx;xxSuspendxx;xxShutdownxx;xxHibernatexx;
+
+Name=Netrunner Blue X
+Name[x-test]=xxNetrunner Blue Xxx
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=KDE Visual Design Group
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=plasma-devel@kde.org
+X-KDE-PluginInfo-License=GPLv2+
+X-KDE-PluginInfo-Name=org.kde.netrunner-blue-x.desktop
+X-KDE-PluginInfo-Version=2.0
+X-KDE-PluginInfo-Website=http://www.kde.org
+X-Plasma-MainScript=defaults
