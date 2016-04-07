@@ -1,0 +1,13 @@
+Source: netrunner-artwork-lookandfeel-packages
+Section: admin
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.7.2
+
+Package: netrunner-artwork-lookandfeel-packages
+Architecture: all
+Replaces: netrunner-artwork (<< 1.1.49)
+Breaks: netrunner-artwork (<< 1.1.49)
+Description: Look and Feel packages
+  This package provides the default look and feel packages for Netrunner.
