@@ -49,7 +49,7 @@ for (var i = 0; i < screenCount; ++i) {
 
     for (var j = 0; j < desktopsArray.length; j++) {
         desktopsArray[j].wallpaperPlugin = 'org.kde.color'
-
+        desktopsArray[j].activityId = '49442035-8f68-4d86-94f9-17d0c6a8e2eb'
         desktopsArray[j].currentConfigGroup = new Array("General");
         desktopsArray[j].writeConfig("positions","1,7,desktop:/mycomputer.desktop,0,0,desktop:/Network,0,1,desktop:/welcome.desktop,0,2,desktop:/calamares.desktop,0,3")
         desktopsArray[j].writeConfig("pressToMove",true);
