@@ -34,10 +34,10 @@ var desktopsArray = desktopsForActivity(id);
 
 for (var j = 0; j < desktopsArray.length; j++) {
     desktopsArray[j].wallpaperPlugin = 'org.kde.color'
-
     desktopsArray[j].currentConfigGroup = new Array("General");
-    desktopsArray[j].writeConfig("positions","1,8,desktop:/mycomputer.desktop,0,0")
+    desktopsArray[j].writeConfig("positions","1,7,desktop:/mycomputer.desktop,0,0,desktop:/Network,0,1,desktop:/welcome.desktop,0,2,desktop:/calamares.desktop,0,3")
     desktopsArray[j].writeConfig("pressToMove",true);
+    desktopsArray[j].writeConfig("showToolbox",false);
     desktopsArray[j].writeConfig("popups",false);
     desktopsArray[j].writeConfig("selectionMarkers",false);
     desktopsArray[j].writeConfig("sortMode","-1");
