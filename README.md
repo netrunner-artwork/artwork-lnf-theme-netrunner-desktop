@@ -1,2 +1,2 @@
-# netrunner-artwork-lookandfeel-packages
-Look and Feel Packages for Netrunner
+# artwork-lnf-netrunner-core
+Look and Feel Package for Netrunner Core
