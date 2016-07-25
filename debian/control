@@ -1,11 +1,11 @@
-Source: netrunner-artwork-lookandfeel-packages
+Source: artwork-lnf-netrunner-core
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.2
 
-Package: netrunner-artwork-lookandfeel-packages
+Package: artwork-lnf-netrunner-core
 Architecture: all
 Replaces: netrunner-artwork (<< 1.1.49)
 Breaks: netrunner-artwork (<< 1.1.49)
