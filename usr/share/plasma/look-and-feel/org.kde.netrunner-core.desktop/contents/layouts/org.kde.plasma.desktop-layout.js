@@ -25,6 +25,7 @@ rightButton.writeEntry("configure shortcuts", "false");
 rightButton.writeEntry("lock widgets", "true");
 rightButton.writeEntry("manage activities", "false");
 rightButton.writeEntry("remove", "true");
+rightButton.writeEntry("run associated application", "false");
 
 delete rightButton;
 delete actionPlugins;
