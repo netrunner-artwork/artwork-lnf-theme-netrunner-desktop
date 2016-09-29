@@ -1,11 +1,11 @@
-Source: artwork-lnf-netrunner-core
+Source: artwork-lnf-theme-netrunner-desktop
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.7.2
 
-Package: artwork-lnf-netrunner-core
+Package: artwork-lnf-theme-netrunner-desktop
 Architecture: all
 Replaces: netrunner-artwork (<< 1.1.49)
 Breaks: netrunner-artwork (<< 1.1.49)
