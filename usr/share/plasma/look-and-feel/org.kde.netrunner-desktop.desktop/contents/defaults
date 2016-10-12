@@ -1,3 +1,5 @@
+[kdeglobals][General]
+ColorScheme=Carbon
 
 [kcminputrc][Mouse]
 cursorTheme=white-classicia++
