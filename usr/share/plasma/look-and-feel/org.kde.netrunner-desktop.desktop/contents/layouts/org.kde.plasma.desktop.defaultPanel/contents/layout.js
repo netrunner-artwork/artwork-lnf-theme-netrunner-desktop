@@ -30,7 +30,7 @@ panel.height = screenGeometry(panel.screen).height > 1024 ? 38 : 27
 var simplemenu = panel.addWidget("org.kde.plasma.kicker")
 simplemenu.currentConfigGroup = ["General"]
 simplemenu.writeConfig("favoriteApps", "org.kde.ksysguard.desktop,systemsettings.desktop,synaptic.desktop")
-simplemenu.writeConfig("hiddenApplications", "org.kde.ksshaskpass.desktop,libreoffice-draw.desktop,libreoffice-base.desktop,libreoffice-math.desktop,lximage-qt-screenshot.desktop")
+simplemenu.writeConfig("hiddenApplications", "org.kde.ksshaskpass.desktop,libreoffice-draw.desktop,libreoffice-base.desktop,libreoffice-math.desktop,lximage-qt-screenshot.desktop,audacious-qt.desktop")
 simplemenu.writeConfig("useCustomButtonImage", true)
 simplemenu.writeConfig("customButtonImage", "/usr/share/icons/hicolor/scalable/apps/homerun.svg")
 simplemenu.writeConfig("alphaSort", true)
