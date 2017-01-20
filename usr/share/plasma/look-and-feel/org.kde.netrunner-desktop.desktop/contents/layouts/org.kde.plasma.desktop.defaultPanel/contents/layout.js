@@ -58,6 +58,7 @@ systrayContainment.currentConfigGroup = ["General"]
 systrayContainment.writeConfig("extraItems","org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.discovernotifier,org.kde.plasma.diskquota,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.battery")
 systrayContainment.writeConfig("knownItems", "org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.discovernotifier,org.kde.plasma.clipboard,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.notifications,org.kde.kdeconnect")
 systrayContainment.writeConfig("hiddenItems","org.kde.plasma.clipboard")
+systrayContainment.writeConfig("shownItems", "transmission")
 
 panel.addWidget("org.kde.plasma.digitalclock")
 panel.addWidget("org.kde.plasma.notifications")
