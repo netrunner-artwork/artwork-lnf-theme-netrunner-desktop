@@ -43,7 +43,6 @@ eitm.writeConfig("separateLaunchers", false)
 eitm.writeConfig("groupPopups", false)
 eitm.writeConfig("sortingStrategy", 1)
 
-panel.addWidget('org.kde.plasma.volume')
 var yakuakeIcon = panel.addWidget("org.kde.plasma.icon")
 yakuakeIcon.currentConfigGroup = ["General"]
 yakuakeIcon.writeConfig("applicationName", "Yakuake")
@@ -51,6 +50,7 @@ yakuakeIcon.writeConfig("genericName", "Drop-down Terminal")
 yakuakeIcon.writeConfig("iconName", "yakuake")
 yakuakeIcon.writeConfig("url", "/usr/share/applications/org.kde.yakuake.desktop")
 
+panel.addWidget('org.kde.plasma.volume')
 var systray = panel.addWidget("org.kde.plasma.systemtray")
 var systrayContainmentId = systray.readConfig("SystrayContainmentId")
 var systrayContainment = desktopById(systrayContainmentId)
