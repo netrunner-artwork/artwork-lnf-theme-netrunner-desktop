@@ -48,7 +48,7 @@ yakuakeIcon.currentConfigGroup = ["General"]
 yakuakeIcon.writeConfig("applicationName", "Yakuake")
 yakuakeIcon.writeConfig("genericName", "Drop-down Terminal")
 yakuakeIcon.writeConfig("iconName", "yakuake")
-yakuakeIcon.writeConfig("url", "/usr/share/applications/org.kde.yakuake.desktop")
+yakuakeIcon.writeConfig("url", "file:///usr/share/applications/org.kde.yakuake.desktop")
 
 panel.addWidget('org.kde.plasma.volume')
 var systray = panel.addWidget("org.kde.plasma.systemtray")
