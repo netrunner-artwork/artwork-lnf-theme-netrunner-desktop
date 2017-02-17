@@ -50,7 +50,7 @@ yakuakeIcon.writeConfig("genericName", "Drop-down Terminal")
 yakuakeIcon.writeConfig("iconName", "yakuake")
 yakuakeIcon.writeConfig("url", "file:///usr/share/applications/org.kde.yakuake.desktop")
 
-panel.addWidget('org.kde.plasma.volume')
+panel.addWidget('org.kde.plasma.volumewin7mixer')
 var systray = panel.addWidget("org.kde.plasma.systemtray")
 var systrayContainmentId = systray.readConfig("SystrayContainmentId")
 var systrayContainment = desktopById(systrayContainmentId)
