@@ -1,3 +1,3 @@
-applet.currentConfigGroup = ["Configuration", "General"]
-applet.writeConfig("maxTextLines", 1)
+applet.currentConfigGroup = ["General"]
+applet.writeConfig("maxStripes", 1)
 applet.reloadConfig()
