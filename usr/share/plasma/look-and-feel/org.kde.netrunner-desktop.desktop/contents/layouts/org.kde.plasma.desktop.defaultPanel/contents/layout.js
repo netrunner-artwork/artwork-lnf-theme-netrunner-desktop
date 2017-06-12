@@ -27,7 +27,7 @@ if (freeEdges["bottom"] == true) {
 
 panel.height = screenGeometry(panel.screen).height > 1024 ? 38 : 27
 
-panel.addWidget("org.kde.plasma.simplemenu")
+panel.addWidget("org.kde.plasma.kickerdash")
 
 panel.addWidget("org.kde.plasma.taskmanager")
 
