@@ -9,6 +9,6 @@ Package: artwork-lnf-theme-netrunner-desktop
 Architecture: all
 Replaces: netrunner-artwork (<< 1.1.49)
 Breaks: netrunner-artwork (<< 1.1.49)
-Depends: plasma-widget-volumewin7mixer
+Depends: plasma-widget-volumewin7mixer, artwork-wallpapers-netrunner-desktop
 Description: Look and Feel packages
   This package provides the default look and feel packages for Netrunner.
