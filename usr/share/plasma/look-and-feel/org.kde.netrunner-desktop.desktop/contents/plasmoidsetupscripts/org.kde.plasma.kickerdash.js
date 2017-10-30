@@ -7,6 +7,6 @@ applet.writeConfig("favoriteApps", ["org.kde.ksysguard.desktop", "systemsettings
 applet.writeConfig("limitDepth", true)
 applet.writeConfig("useCustomButtonImage", true)
 applet.writeConfig("alphaSort", true)
-applet.writeConfig("hiddenApplications", "org.kde.ksshaskpass.desktop,libreoffice-draw.desktop,libreoffice-base.desktop,libreoffice-math.desktop,lximage-qt-screenshot.desktop,audacious-qt.desktop,mpv.desktop")
+applet.writeConfig("hiddenApplications", "org.kde.ksshaskpass.desktop,libreoffice-draw.desktop,libreoffice-base.desktop,libreoffice-math.desktop,lximage-qt-screenshot.desktop,audacious-qt.desktop,mpv.desktop,iceweasel.desktop")
 
 applet.reloadConfig();
