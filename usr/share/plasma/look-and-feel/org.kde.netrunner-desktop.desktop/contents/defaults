@@ -6,3 +6,6 @@ cursorTheme=white-classicia++
 
 [Desktop][org.kde.plasma.desktop]
 Containment=org.kde.plasma.folder
+
+[plasmarc][Theme]
+name=BlackX
