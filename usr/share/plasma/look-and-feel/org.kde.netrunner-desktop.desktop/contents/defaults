@@ -3,6 +3,7 @@ ColorScheme=Carbon
 
 [kdeglobals][KDE]
 widgetStyle=breeze
+SingleClick=false
 
 [kdeglobals][Icons]
 Theme=breeze
