@@ -38,6 +38,13 @@ yakuakeIcon.writeConfig("genericName", "Drop-down Terminal")
 yakuakeIcon.writeConfig("iconName", "yakuake")
 yakuakeIcon.writeConfig("url", "file:///usr/share/applications/org.kde.yakuake.desktop")
 
+var spectacleIcon = panel.addWidget("org.kde.plasma.icon")
+spectacleIcon.currentConfigGroup = ["General"]
+spectacleIcon.writeConfig("applicationName", "Spectacle")
+spectacleIcon.writeConfig("genericName", "Screenshot Capture Utility")
+spectacleIcon.writeConfig("iconName", "spectacle")
+spectacleIcon.writeConfig("url", "file:///usr/share/applications/org.kde.spectacle.desktop")
+
 panel.addWidget('org.kde.plasma.volumewin7mixer')
 panel.addWidget("org.kde.plasma.systemtray")
 panel.addWidget("org.kde.plasma.digitalclock")
